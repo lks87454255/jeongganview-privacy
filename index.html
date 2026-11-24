@@ -12,10 +12,10 @@ p{margin:.25em 0} p.sub{padding-left:1.2em} p.date{color:#666}
 </head>
 <body>
 <h1>정간뷰 개인정보처리방침 / JeongGanView Privacy Policy</h1>
-<p class="date">최종 수정 / Last updated: 2026-10-17</p>
+<p class="date">최종 수정 / Last updated: 2026-11-24</p>
 <h2>[한국어]</h2>
 <h3>1) 개요</h3>
-<p>정간뷰(&quot;앱&quot;)는 정간보 연주·연습, 정간보 만들기, 오선보→정간보 변환, 조율, 장단, 합주실(온라인 합주), 커뮤니티 기능을 제공합니다.</p>
+<p>정간뷰(&quot;앱&quot;)는 정간보 연주·연습, 정간보 만들기, 오선보→정간보 변환, 조율, 장단, 풍류 마당(악기별 합주 음원), 합주실(온라인 합주), 커뮤니티, PC 로그인(PC 브라우저에서 정간보 연주·풍류 마당 쓰기) 기능을 제공합니다.</p>
 <p>이 방침은 앱이 어떤 정보를 다루고, 어디로 보내며, 무엇에 쓰는지 설명합니다. 앱은 개인정보를 판매하지 않습니다.</p>
 <h3>2) 기기에만 저장되는 정보</h3>
 <p>- 녹음: 사용자가 녹음을 시작했을 때만 만들어지며 기기에 저장됩니다(외부로 보내지 않음).</p>
@@ -25,12 +25,15 @@ p{margin:.25em 0} p.sub{padding-left:1.2em} p.date{color:#666}
 <p class="sub">- 기기 식별자: Android ID(앱별 기기 식별값)</p>
 <p class="sub">- 기기 정보: 제조사·모델·Android 버전·보안 패치 수준·빌드 정보·CPU 종류·화면 크기·언어·시간대</p>
 <p class="sub">- 앱 정보: 앱 버전, 푸시 알림 토큰(FCM)</p>
+<p class="sub">- 기기 열쇠의 공개키: 앱이 기기 안에서 만든 열쇠(개인키는 기기 밖으로 나가지 않음)의 공개 부분. PC 로그인·관리자 확인 때 서명을 확인하는 데 씁니다.</p>
 <p class="sub">- 대화명(사용자가 화면 꾸미기에서 입력한 별명)</p>
-<p class="sub">- 이용 기록: 앱 실행, 악보 열기(곡·파일 이름), 페이지 보기, 조율·장단 사용, 합주실 만들기·참가, 오선보 변환 요청</p>
-<p class="sub">- 오선보 변환 시 사용자가 고른 악보 파일(MusicXML/이미지, 카메라로 찍은 악보 사진 포함)</p>
-<p class="sub">- 위치(위치 권한을 허용한 경우에만): 기기의 정확한 위치 좌표(위도·경도), 위치 정확도·고도·속도·방향, 위치 제공 방식(GPS/네트워크), 측정 시각, 좌표를 기기에서 바꾼 주소(국가, 시·도, 시·군·구, 동·읍·면, 도로명·지번, 건물명, 우편번호). 앱이 실행 중일 때만 수집하며 백그라운드에서는 수집하지 않습니다.</p>
-<p class="sub">사용 목적: 서비스 운영과 장애 분석, 변환 결과 알림 전송, 관리자 기기 확인, 이용 통계(사용 지역 통계 포함).</p>
-<p class="sub">※ 이 서버와의 통신은 암호화(HTTPS)됩니다.</p>
+<p class="sub">- 위치 정보: 위치 권한을 허용한 경우에만, 앱을 실행할 때와 권한을 허용했을 때 보냅니다.<br>· 위도·경도 좌표(정확한 위치 권한이면 GPS 수준, 대략 위치만 허용하면 Android 가 흐린 약 2~3km 수준), 위치 정확도·고도(수직 정확도 포함)·속도·방향·측정 시각·측정 방식(GPS/네트워크), 모의 위치 여부<br>· 주소: 도로명/지번 주소 한 줄, 나라, 시/도, 시/군/구, 동, 도로명, 건물 번호, 건물명, 우편번호<br>· 지역 이름(시/도 + 시/군/구, 예: &quot;서울특별시 구로구&quot;)<br>권한을 허용하지 않으면 보내지 않습니다. 앱을 쓰는 동안에만 수집하며 백그라운드에서는 수집하지 않습니다.</p>
+<p class="sub">- 이용 기록: 앱 실행·종료, 악보 열기(곡·파일 이름), 페이지 보기, 재생, 조율·장단 사용, 정간보 만들기 사용, 풍류 마당 곡 열기, 악상기호·국악원 음원·도움말 보기, 합주실 만들기·참가·나가기, 오선보 변환 요청</p>
+<p class="sub">- 오류 기록: 앱이 갑자기 종료되면 그때의 오류 내용(시각, 오류 위치, 종료 직전에 하던 일 메모 — 예: 재생하던 곡과 위치)을 기기에 적어 두었다가 다음 실행 때 보냅니다. 사용자가 만든 내용(녹음·필기·악보 파일)은 담지 않습니다.</p>
+<p class="sub">- 오선보 변환 시 사용자가 고른 악보 파일(MusicXML/이미지)</p>
+<p class="sub">- PC 로그인: 사용자가 앱으로 PC 화면의 QR 코드를 찍어 허락하면, 허락한 기기와 PC 쪽 정보(IP 주소, 브라우저 정보, 로그인 시각)를 기록합니다.<br>PC 에서 풍류 마당 곡을 열면 연 곡을 기록합니다. PC 로그인은 12시간 뒤 끝납니다.</p>
+<p class="sub">사용 목적: 서비스 운영과 장애 분석, 변환 결과 알림 전송, PC 로그인 확인과 부정 접속 막기, 관리자 기기 확인, 이용 통계(위치·지역별 이용 통계 포함).</p>
+<p class="sub">※ 이 서버와의 통신은 모두 암호화(HTTPS)됩니다. 앱은 암호화되지 않은 통신을 쓰지 않습니다.</p>
 <p>나. Google Firebase (Firestore, Cloud Messaging, Storage)</p>
 <p class="sub">- 합주실·커뮤니티: 대화명, 아바타, 합주실 이름, 참가 상태, 연주 진행 상태(페이지·박자·템포 등), 커뮤니티 메시지</p>
 <p class="sub">- 커뮤니티 첨부 파일: 사용자가 메시지에 직접 첨부한 사진·파일(Firebase Storage 에 저장)</p>
@@ -38,23 +41,33 @@ p{margin:.25em 0} p.sub{padding-left:1.2em} p.date{color:#666}
 <p class="sub">- 푸시 알림 토큰, Firebase 설치 식별값(Firebase SDK 가 알림 전송을 위해 자동 생성)</p>
 <p class="sub">사용 목적: 실시간 합주 동기화, 커뮤니티, 알림.</p>
 <p>다. Open-Meteo (날씨)</p>
-<p class="sub">- 시작 화면 날씨·계절 효과를 위해 현재 날씨를 조회합니다.</p>
-<p class="sub">- 위치 권한을 허용하면 기기 위치를 소수 첫째 자리(약 11km)로 반올림한 좌표만 보냅니다. 허용하지 않았거나 위치를 얻지 못하면 서울의 고정 좌표를 씁니다. 일반적인 인터넷 요청처럼 IP 주소가 상대 서버에 전달될 수 있습니다.</p>
-<p>라. GitHub (공개 자료 내려받기)</p>
-<p class="sub">- 곡 목록, 배경음악, 악기 소리 등 공개 자료를 내려받기만 합니다. 사용자 정보는 보내지 않습니다.</p>
+<p class="sub">- 시작 화면 날씨 효과와 찻잔 김(기온·계절)을 위해 현재 날씨와 기온을 조회합니다.</p>
+<p class="sub">- 위치 권한을 허용한 경우: 날씨 조회에는 기기 위치 좌표를 소수 첫째 자리(약 11km 단위)로 반올림해 보냅니다.</p>
+<p class="sub">- 허용하지 않은 경우: 서울의 고정 좌표로 조회합니다.</p>
+<p class="sub">- 일반적인 인터넷 요청처럼 IP 주소가 상대 서버에 전달될 수 있습니다.</p>
+<p>라. 기기의 주소 변환 기능(Android Geocoder)</p>
+<p class="sub">- 위치 권한을 허용한 경우, 위치 좌표를 주소로 바꾸기 위해 Android 기기에 내장된 주소 변환 기능을 사용합니다.</p>
+<p class="sub">- 이 기능은 기기에 설치된 위치 서비스(대부분 Google Play 서비스)가 처리하며, 그 과정에서 위치 좌표가 해당 서비스 제공자에게 전달될 수 있습니다.</p>
+<p>마. 공개 자료 내려받기: GitHub, Amazon Web Services(CloudFront·S3), 국립국악원</p>
+<p class="sub">- 곡 목록, 정간보 악보, 음원, 풍류 마당 악기 음원, 악기 소리 등 공개 자료를 내려받기만 합니다. 사용자 정보는 보내지 않습니다.</p>
+<p class="sub">- GitHub 에서 먼저 받고, 받지 못하면 같은 자료를 Amazon CloudFront 에서 받습니다. 국립국악원 공연 녹음은 국립국악원 서버에서 재생합니다.</p>
+<p class="sub">- 일반적인 인터넷 요청처럼 IP 주소가 각 서버에 전달될 수 있습니다.</p>
 <h3>4) 권한</h3>
 <p>- 마이크(RECORD_AUDIO): 조율(음정 분석), 녹음</p>
-<p>- 위치(정확한 위치·대략 위치): 시작 화면 날씨·계절 표시, 사용 지역 통계. 허용하지 않아도 모든 기능을 쓸 수 있습니다.</p>
-<p>- 카메라(CAMERA): 관리자 PC 로그인 QR 코드 읽기, 오선보 악보 촬영(문서 스캔). 찍은 사진은 사용자가 변환을 요청할 때만 서버로 보냅니다.</p>
+<p>- 카메라(CAMERA): 오선보 악보 촬영(오선보 변환), PC 로그인 QR 코드 읽기. QR 코드는 기기 안에서 읽고 사진을 보내지 않습니다. 악보 사진은 사용자가 변환을 요청할 때만 서버로 보냅니다.</p>
 <p>- 알림(POST_NOTIFICATIONS): 변환 완료 등 알림</p>
 <p>- 진동(VIBRATE): 시작 화면 대금을 누를 때 진동 효과(설치 시 자동 허용)</p>
+<p>- 위치(ACCESS_FINE_LOCATION·ACCESS_COARSE_LOCATION, 선택): 현재 지역의 날씨·계절 효과, 관리자 위치 이용 통계(좌표·주소). 권한 창에서 '대략적인 위치'를 고르면 정확한 좌표 대신 흐린 위치만 보냅니다. 허용하지 않아도 앱의 모든 기능을 쓸 수 있으며, 설정에서 언제든 끌 수 있습니다.</p>
 <p>- 인터넷·네트워크 상태: 온라인 기능</p>
 <p>- 저장소(Android 9~12 이하 기기에서만): 파일 저장·불러오기</p>
 <p>- 포그라운드 서비스(음악 재생): 화면을 꺼도 음원 재생 유지</p>
 <h3>5) 보관 및 삭제</h3>
 <p>- 기기에 저장된 정보는 앱을 삭제하거나 앱 안에서 지우면 삭제됩니다.</p>
 <p>- 서버·Firebase 에 저장된 정보의 삭제를 원하시면 아래 연락처로 요청해 주세요. 요청을 확인한 뒤 지체 없이 삭제합니다.</p>
-<p>- 서버에 저장된 이용 기록과 위치 정보는 수집일로부터 1년 동안 보관한 뒤 삭제합니다.</p>
+<p>- 위치 권한을 끄면 그 뒤로는 위치를 보내지 않습니다. 이미 서버에 저장된 위치·주소는 남아 있으며, 위 연락처로 삭제를 요청할 수 있습니다.</p>
+<p>- 서버 위치 정보(좌표·주소)의 보관 기간: 받은 날부터 1년. 지난 것은 지웁니다.</p>
+<p>- 서버 이용 기록·오류 기록·PC 로그인 기록의 보관 기간: 기록한 날부터 1년. 지난 것은 지웁니다.</p>
+<p>- 오선보 변환 파일과 결과의 보관 기간: 요청한 날부터 1년. 앱의 변환 내역에서 지우면 목록에서 바로 사라지고, 보관 기간이 지나면 서버에서도 지웁니다.</p>
 <h3>6) 백업</h3>
 <p>- Android 자동 백업에는 사용자 설정·녹음 등이 포함될 수 있으며, 푸시 토큰·관리자 상태·캐시는 백업에서 제외됩니다.</p>
 <h3>7) 아동</h3>
@@ -62,24 +75,28 @@ p{margin:.25em 0} p.sub{padding-left:1.2em} p.date{color:#666}
 <h3>8) 변경</h3>
 <p>기능이나 법령이 바뀌면 이 방침을 고치고 위 &quot;최종 수정&quot; 날짜를 바꿉니다.</p>
 <h3>9) 문의</h3>
-<p><a href="mailto:lks878454255@gmail.com">lks878454255@gmail.com</a></p>
+<p><a href="mailto:lks87454255@gmail.com">lks87454255@gmail.com</a></p>
 <h2>[English]</h2>
 <h3>1) Overview</h3>
-<p>JeongGanView (&quot;app&quot;) provides jeongganbo playback/practice, jeongganbo maker, staff-to-jeongganbo conversion, tuning, rhythm (jangdan), online ensemble rooms, and community features. The app does not sell personal data.</p>
+<p>JeongGanView (&quot;app&quot;) provides jeongganbo playback/practice, jeongganbo maker, staff-to-jeongganbo conversion, tuning, rhythm (jangdan), Pungryu Madang (per-instrument ensemble audio), online ensemble rooms, community, and PC login (use jeongganbo playback and Pungryu Madang in a PC browser) features. The app does not sell personal data.</p>
 <h3>2) Stored only on your device</h3>
 <p>Recordings (created only when you start recording), selected file references, app settings, favorites, and handwritten notes.</p>
 <h3>3) Data sent off the device</h3>
-<p>a. App server (astoc.kr): Android ID; device info (manufacturer, model, Android version, security patch, build info, CPU ABI, screen size, locale, time zone); app version; push token (FCM); nickname; usage events (app open, score opened incl. song/file name, page view, tuning/rhythm use, ensemble create/join, conversion request); score files you upload for conversion (including photos of scores taken with the camera); location, only if you grant the location permission: precise coordinates (latitude/longitude), accuracy, altitude, speed, bearing, provider (GPS/network), fix time, and the address derived on the device (country, province, city/district, neighborhood, street/lot address, building name, postal code). Location is collected only while the app is in use, never in the background.</p>
-<p class="sub">Purpose: operating the service, troubleshooting, sending conversion notifications, identifying admin devices, usage statistics (including regional usage statistics).</p>
-<p class="sub">Note: this connection is encrypted (HTTPS).</p>
+<p>a. App server (astoc.kr): Android ID; device info (manufacturer, model, Android version, security patch, build info, CPU ABI, screen size, locale, time zone); app version; push token (FCM); the public part of a key the app creates on the device (the private key never leaves the device; used to verify signatures for PC login and admin checks); nickname; location — only if you grant the location permission, sent at app start and when the permission is granted: latitude/longitude (GPS-level with precise location, about 2–3 km blurred by Android with approximate location), accuracy, altitude (with vertical accuracy), speed, bearing, fix time, provider (GPS/network), mock-location flag, and the street address (full address line, country, province/city, district, neighborhood, street, building number/name, postal code) plus a region name (e.g. &quot;Seoul Guro-gu&quot;); location is collected only while the app is in use, never in the background; usage events (app open/exit, score opened incl. song/file name, page view, playback, tuning/rhythm use, jeongganbo maker use, Pungryu Madang song opened, viewing ornaments/archive recordings/help, ensemble create/join/leave, conversion request); crash reports (if the app closes unexpectedly, the error details — time, error location, and a short note of what was happening, e.g. the song and position being played — are saved on the device and sent at the next launch; no user content such as recordings, notes or score files); score files you upload for conversion; PC login (when you scan a QR code shown on a PC and approve it, we record the approving device and the PC's IP address, browser information and login time; songs opened in Pungryu Madang on the PC are recorded; a PC login ends after 12 hours).</p>
+<p class="sub">Purpose: operating the service, troubleshooting, sending conversion notifications, verifying PC logins and preventing abuse, identifying admin devices, usage statistics (including statistics by location/region).</p>
+<p class="sub">All communication with this server is encrypted (HTTPS). The app does not use unencrypted connections.</p>
 <p>b. Google Firebase (Firestore, Cloud Messaging, Storage): nickname, avatar, room names, membership status, playback state for ensemble sync, community messages, photos/files you attach to community messages (stored in Firebase Storage), a random user identifier created by the app at install, push token and Firebase installation ID (generated automatically by the Firebase SDK for notifications). Purpose: real-time ensemble sync, community, notifications.</p>
-<p>c. Open-Meteo (weather): current weather for the start-screen weather/season effect. If you grant the location permission, only your coordinates rounded to one decimal place (about 11 km) are sent; otherwise a fixed Seoul coordinate is used. Your IP address may be visible to the provider as with any web request.</p>
-<p>d. GitHub: downloads public content only (song index, background music, instrument samples). No user data is sent.</p>
+<p>c. Open-Meteo (weather): current weather and temperature for the start-screen weather effect and the tea-cup steam. If you grant the location permission, the coordinates sent for weather are rounded to one decimal place (about 11 km); otherwise a fixed Seoul coordinate is used. Your IP address may be visible to the provider as with any web request.</p>
+<p>d. Device geocoder (Android Geocoder): if you grant the location permission, the app uses the geocoder built into Android to turn your location into a street address. It is handled by the location service installed on your device (usually Google Play services), which may receive the coordinates.</p>
+<p>e. Public content downloads — GitHub, Amazon Web Services (CloudFront/S3), National Gugak Center: the app only downloads public content (song index, scores, audio, Pungryu Madang instrument tracks, instrument samples). No user data is sent. Content is fetched from GitHub first and, if that fails, the same content from Amazon CloudFront. National Gugak Center performance recordings are streamed from its server. As with any web request, your IP address may be visible to these servers.</p>
 <h3>4) Permissions</h3>
-<p>Microphone (tuning, recording), Location — precise and approximate (start-screen weather/season, regional usage statistics; all features work without it), Camera (reading the admin PC-login QR code, photographing scores via document scan; photos are sent to the server only when you request a conversion), Notifications, Vibration (start-screen effect; granted at install), Internet/network state, Storage (Android 12 and below only), Foreground service for media playback.</p>
+<p>Microphone (tuning, recording), Camera (photographing staff scores for conversion, reading PC-login QR codes; QR codes are read on the device and no image is sent; score photos are sent only when you request a conversion), Notifications, Vibration (start-screen effect; granted at install), Location (ACCESS_FINE_LOCATION / ACCESS_COARSE_LOCATION, optional: local weather/season effects and admin location statistics with coordinates and address; choosing &quot;approximate&quot; in the system dialog sends only a blurred location; all features work without it and you can turn it off at any time in Settings), Internet/network state, Storage (Android 12 and below only), Foreground service for media playback.</p>
 <h3>5) Retention and deletion</h3>
 <p>On-device data is deleted when you uninstall the app or delete it in the app. To delete data stored on our server or Firebase, contact us; we will delete it without undue delay after verifying the request.</p>
-<p>Usage logs and location data stored on our server are kept for one year from collection and then deleted.</p>
+<p>If you turn off the location permission, location is no longer sent; location and address data already stored on the server remain until you ask us to delete it.</p>
+<p>Server location data (coordinates and address) is kept for 1 year from receipt and then deleted.</p>
+<p>Server usage logs, crash reports and PC login records are kept for 1 year from the time they are recorded and then deleted.</p>
+<p>Conversion files and results are kept for 1 year from the request; deleting one in the app's conversion history removes it from the list immediately, and it is deleted from the server when the retention period ends.</p>
 <h3>6) Backup</h3>
 <p>Android Auto Backup may include settings and recordings; push tokens, admin status and caches are excluded.</p>
 <h3>7) Children</h3>
@@ -87,6 +104,6 @@ p{margin:.25em 0} p.sub{padding-left:1.2em} p.date{color:#666}
 <h3>8) Changes</h3>
 <p>We update this policy when features or laws change and revise the &quot;Last updated&quot; date.</p>
 <h3>9) Contact</h3>
-<p><a href="mailto:lks878454255@gmail.com">lks878454255@gmail.com</a></p>
+<p><a href="mailto:lks87454255@gmail.com">lks87454255@gmail.com</a></p>
 </body>
 </html>
